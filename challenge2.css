@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.clock{
+    font-size: 5em;
+    text-align: center;
+    font-family: 'poppins';
+    }
+
+#wolk1, #wolk2, #wolk3 {
+    width: 100%;
+    position: relative;
+    }
+
+#maan, #planeetrood, #planeetpaars{
+    width: 100%;
+    position: relative;
+}
+
+.wolken{
+    width: 25%;
+    height: 20vh;
+}
+
+/************Mid**************/
+@media only screen and (min-width: 401px) and (max-width: 599px){
+    .clock{
+        font-size: 6em;
+    }    
+}
+
+/************large**************/
+@media only screen and (min-width: 600px) and (max-width: 959px){
+    .clock{
+        font-size: 7em;
+    }
+}
+
+/************XL**************/
+@media only screen and (min-width: 960px){
+    .clock{
+        font-size: 8em;
+    }
+    .wolken{
+        width: 15%;
+    }
+}
